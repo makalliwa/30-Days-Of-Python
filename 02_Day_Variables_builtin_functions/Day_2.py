@@ -1,3 +1,4 @@
+import math
 
 # Omondi Makalliwa
 # 30 Days of Python
@@ -59,6 +60,12 @@ division = num_one / num_two
 modulus = num_one % num_two
 exponent = num_one ** num_two
 floor_division = num_one // num_two
+
+# Circmumference and Area
+radius = int(input("Please enter the radius: "))
+circumference = 2 * math.pi * radius
+area = math.pi * (radius**2)
+
 
 
 
